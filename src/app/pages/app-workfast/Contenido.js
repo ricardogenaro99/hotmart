@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import ListOfLists from "../../components/preparate/ListOfLists";
+import ListOfLists from "../../components/contenido/ListOfLists";
 import { useAuth } from "../../contexts/authContext";
 import { ContainerGapDefault } from "../../shared/templates";
 
@@ -45,7 +45,7 @@ const listOfLists = [
 		],
 	},
 ];
-const Preparate = () => {
+const Contenido = () => {
 	const { setLoading } = useAuth();
 
 	useEffect(() => {
@@ -66,4 +66,4 @@ const Preparate = () => {
 	);
 };
 
-export default Preparate;
+export default Contenido;

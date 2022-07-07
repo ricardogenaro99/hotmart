@@ -1,4 +1,3 @@
-import Accordion from "./accordion/Accordion";
 import Alert from "./alert/Alert";
 import Aside from "./aside/Aside";
 import { ButtonPrimaryPurple, ButtonPrimaryWhite } from "./buttons/Buttons";
@@ -20,7 +19,6 @@ export {
 	Alert,
 	CardDefault,
 	CardDefaultStyle,
-	Accordion,
 	FormDefault,
 };
 

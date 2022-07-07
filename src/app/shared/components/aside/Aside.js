@@ -1,5 +1,4 @@
 import { FaCog, FaVideo } from "react-icons/fa";
-import { RiProfileFill } from "react-icons/ri";
 import { SiSpeedtest } from "react-icons/si";
 import styled from "styled-components";
 import { device } from "../../utils/Breakpoints";
@@ -71,11 +70,6 @@ const Aside = () => {
 					<NavLinkComponent
 						name="Dashboard"
 						icon={<SiSpeedtest size={sizeIconTech} />}
-					/>
-					<NavLinkComponent
-						path="perfil"
-						name="Perfil"
-						icon={<RiProfileFill size={sizeIconTech} />}
 					/>
 					<NavLinkComponent
 						path="contenido"

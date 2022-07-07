@@ -4,6 +4,7 @@ const Container = styled.section`
 	display: flex;
 	flex-direction: column;
 	gap: 30px;
+	object-fit: cover;
 	.section-title {
 		font-size: 30px;
 		font-weight: 600;

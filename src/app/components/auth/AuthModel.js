@@ -70,7 +70,7 @@ const AuthModel = ({
 							label="Correo"
 							type="email"
 							name="email"
-							placeholder="correo@fast.work"
+							placeholder="correo@hotmart.xyz"
 							value={form.email}
 							onChange={onChange}
 						/>
